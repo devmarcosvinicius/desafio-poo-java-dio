@@ -1,4 +1,8 @@
-package src.com.marcosviniciusdev.dominio;
+package src.com.marcosviniciusdev;
+
+import src.com.marcosviniciusdev.dominio.Conteudo;
+import src.com.marcosviniciusdev.dominio.Curso;
+import src.com.marcosviniciusdev.dominio.Mentoria;
 
 import java.time.LocalDate;
 
@@ -16,6 +20,9 @@ public class Main {
         curso2.setTitulo("curso js");
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
+
+        Conteudo conteudo = new Curso();
+
 
         Mentoria mentoria = new Mentoria();
 
